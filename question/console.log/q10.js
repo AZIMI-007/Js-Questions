@@ -1,0 +1,11 @@
+// 10. Print a multiplication table line for 7
+console.log(1*7)
+console.log(2*7)
+console.log(3*7)
+console.log(4*7)
+console.log(5*7)
+console.log(6*7)
+console.log(7*7)
+console.log(8*7)
+console.log(9*7)
+console.log(10*7)
