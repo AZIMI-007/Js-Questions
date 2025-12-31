@@ -1,0 +1,22 @@
+1. Declare a variable name and assign it your name. Print:
+My name is <name>
+2. Declare two variables x = 5 and y = 10. Print their sum, difference, product, and quotient.
+3. Write code that swaps a and b (so a = 3, b = 7) and print the result.
+a = 7;
+b = 3;
+
+4.Declare a variable radius = 6. Calculate and print the area and circumference of the circle.
+5. A rectangle has width w = 8 and height h = 5. Use variables to compute its area and perimeter.
+6. Write a program to convert a temperature from Fahrenheit to Celsius. Let fahrenheit = 100. Print the Celsius value.
+7. A runner runs d = 14 km in t = 45 minutes. Use variables to compute average speed in km/min.
+8. Write a program that calculates compound interest:
+futureValue = amount * (1 + rate)^years
+Use amount = 1000, rate = 0.05, years = 3. Print the result.
+9. A student scores math = 90, english = 85, and science = 95. Use variables to compute the average.
+10. The population of a town is p = 312032486. Each year:
+one birth every 7 seconds
+one death every 13 seconds
+one new immigrant every 45 seconds
+Write a program to calculate the population after 1 year. (Hint: 1 year = 365 × 24 × 60 × 60 seconds).
+11. Write a program to compute body mass index (BMI). Formula:
+BMI = weight / (height * height)
