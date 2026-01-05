@@ -1,0 +1,52 @@
+1. Ask the user for a number. Print "Positive" if it’s greater than 0.
+2. Ask the user for their age. If it’s 18 or more, print "You are an adult."
+3. Ask the user for two numbers. Print the larger one.
+4. Ask the user for a number. Print "Positive", "Negative", or "Zero".
+5. Ask the user for a score (0–100). Print:
+"A" if 90–100
+"B" if 80–89
+"C" if 70–79
+"D" if 60–69
+"F" otherwise
+6. Ask the user for three side lengths. Print whether they can form a valid triangle (sum of any two sides > third side).
+7. Ask the user for a year. Print "Leap year" if divisible by 4 but not 100, or divisible by 400. Otherwise "Not leap year".
+8. Ask the user for electricity units consumed. Calculate bill:
+First 100 units = free
+Next 100 units = 5 per unit
+Above 200 units = 10 per unit
+Print the bill amount.
+9. Ask the user for coordinates of two points (x1, y1) and (x2, y2). Print which point is farther from the origin.
+10. Ask the user for a single character. Print whether it’s a vowel or consonant.
+11. Ask the user for a two-digit number. Print whether the tens digit is larger, smaller, or equal to the ones digit.
+12. Ask the user for a number 1–7. Print the corresponding weekday (1 → Monday, 7 → Sunday). If not 1–7, print "Invalid".
+13. Ask the user for their age. Print "Child" if under 13, "Teen" if 13–19, "Adult" if 20–64, "Senior" if 65+.
+14. Ask the user for two numbers and an operator (+, -, *, /). Print the result of the operation.
+15. Ask for a username and password. If they match predefined ones (e.g., "admin", "1234"), print “Login successful.” Otherwise, print “Login failed.”
+16. Ask for two numbers and check whose absolute value is bigger.
+17. Ask for weight (kg) and height (m). Calculate BMI and classify as Underweight, Normal, Overweight, or Obese.
+18. Middle Number Ask for three numbers. Print the one that is neither the largest nor the smallest (the middle value).
+19. Triangle Classification by Angles
+Ask for three angles. Check if they form a triangle, then classify as:
+Right
+Acute
+Obtuse
+20. Temperature Advice
+Ask for temperature in Celsius:
+
+≤ 0 → “Freezing”
+1–15 → “Cold”
+16–25 → “Warm”
+26–35 → “Hot”
+35 → “Extreme heat”
+
+21. Age Milestone
+Ask for age. Print which milestone they are:
+
+0–12 → Child
+13–17 → Teenager
+18–59 → Adult
+60–79 → Senior
+80+ → Elderly
+
+22. Two-Digit Swap
+Ask for a two-digit number. Swap the digits and print the new number.
