@@ -17,5 +17,5 @@ let birth = year / 7
 let death = year / 13
 let immigrant = year / 45
 let ChangeY = birth + immigrant - death
-let p = population + yearlyChange * 5
+let p = population + ChangeY * 5
 console.log(p)
