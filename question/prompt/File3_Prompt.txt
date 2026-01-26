@@ -1,0 +1,14 @@
+1. Ask the user for their name. Print:
+Hello, <name>!
+2. Ask the user for two numbers. Print their sum, difference, product, and quotient.
+3.Ask the user for two numbers. Print the result of dividing the first by the second, and also print the remainder.
+4. Ask the user for a distance in kilometers. Convert it to miles (1 km ≈ 0.621 miles).
+5. Ask the user for a time in minutes. Convert it to hours and minutes.
+Example: 130 → 2 hours and 10 minutes.
+6. Ask the user for a number n. Print the multiplication table of n up to 10.
+7. Ask the user for two points (x1, y1) and (x2, y2). Compute the distance between them:
+distance = √((x2 - x1)^2 + (y2 - y1)^2)
+8.Ask the user for two numbers. Print their average.
+9. Ask the user for the radius of a sphere. Print its volume:
+volume = (4/3) * π * r^3
+(use 3.14 for π)
