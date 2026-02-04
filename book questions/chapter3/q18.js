@@ -10,3 +10,18 @@
 // display the shipping cost. If the weight is greater than 50, display a message “the 
 // package cannot be shipped.”
 
+
+let weight = Number(prompt("Enter the weight of the package (in pounds)"))
+
+
+if (weight > 0 && weight <= 1){
+    console.log ("3.5") 
+}else if (weight > 1 && weight <= 3){
+    console.log("5.5") 
+}else if (weight > 3 && weight <= 10){
+    console.log("8.5")
+}else if (weight > 10 && weight <= 20){
+    console.log("10.5")
+}else{
+   console.log("package cannot be shipped")
+}
