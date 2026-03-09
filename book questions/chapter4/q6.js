@@ -10,3 +10,30 @@
 // point on the circle can be generated using a random angle a. (c) A pentagon is centered at 
 // (0, 0) with one point at the 0 o’clock position.
 
+
+
+let radius = 40
+
+let angle1 = Math.random() * 2 * Math.PI
+let angle2 = Math.random() * 2 * Math.PI
+let angle3 = Math.random() * 2 * Math.PI
+
+let x1 = radius * Math.cos(angle1)
+let y1 = radius * Math.sin(angle1)
+let x2 = radius * Math.cos(angle2)
+let y2 = radius * Math.sin(angle2)
+let x3 = radius * Math.cos(angle3)
+let y3 = radius * Math.sin(angle3)
+
+let sideAB = Math.sqrt((x2-x1)**2 + (y2-y1)**2)
+let sideBC = Math.sqrt((x3-x2)**2 + (y3-y2)**2)
+let sideCA = Math.sqrt((x1-x3)**2 + (y1-y3)**2)
+
+let angleA = Math.acos((sideBC**2 + sideCA**2 - sideAB**2) / (2 * sideBC * sideCA)) * 180 / Math.PI
+let angleB = Math.acos((sideAB**2 + sideCA**2 - sideBC**2) / (2 * sideAB * sideCA)) * 180 / Math.PI
+let angleC = Math.acos((sideAB**2 + sideBC**2 - sideCA**2) / (2 * sideAB * sideBC)) * 180 / Math.PI
+
+console.log("Angle A:", angleA.toFixed(2))
+console.log("Angle B:", angleB.toFixed(2))
+console.log("Angle C:", angleC.toFixed(2))
+
