@@ -17,6 +17,7 @@
 
 let ta = Number(prompt("Enter the temperature in Fahrenheit between -58°F and 41°F:"))
 let v = Number(prompt("Enter the wind speed (>=2) in miles per hour: "))
-let twc = ( 35.74 ) + (0.6215*(ta)) - ( 35.75 * (v**0.16)) + (0.4275) * (ta) *(v**0.16)
+let twc = 35.74 + 0.6215 * ta - 35.75 * Math.pow(v, 0.16) + 0.4275 * ta * Math.pow(v, 0.16)
+
 
 console.log("the wind chill index is "+ twc)
